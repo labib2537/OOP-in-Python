@@ -1,0 +1,26 @@
+class calculator:
+    def __init__(self,x,y):
+        self.x = x
+        self.y = y
+
+    def calculate_sum(self):
+        sm = self.x + self.y
+        print("SUM: ",sm)
+
+    def calculate_sub(self):
+        sb =  self.x - self.y
+        print("SUB: ",sb)
+
+    def calculate_mul(self):
+        m = self.x * self.y
+        print("Multiplication: ",m)
+
+    def calculate_div(self):
+        d = self.x / self.y
+        print("Division: ",d)
+
+a = calculator(20,10)
+a.calculate_sum()
+a.calculate_sub()
+a.calculate_mul()
+a.calculate_div()
